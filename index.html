@@ -42,13 +42,17 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">홈</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#textminer-pro">📦 textminer-pro</a>
+    <li class="toctree-l2"><a class="reference internal" href="#pypi">pypi패키지 링크 및 사진</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pypi-httpspypiorgprojecttextminerpro-hyeonsung">pypi패키지 링크 [https://pypi.org/project/textminerpro-hyeonsung/]</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#_1">📁 프로젝트 폴더 구조</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_2">기능</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#_2">✨ 주요 기능</a>
+    <li class="toctree-l3"><a class="reference internal" href="#_3">설치</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#_3">📦 설치</a>
+        </ul>
     </li>
     </ul>
                 </li>
@@ -82,56 +86,45 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="pypi_textminor">pypi_textminor</h1>
-<p>PyPI 라이브러리 텍스트마이닝 프로그램</p>
-<h2 id="textminer-pro">📦 textminer-pro</h2>
-<p>A Korean-friendly text preprocessing toolkit that supports:</p>
-<ul>
-<li><code>remove_stopwords(text, lang='en')</code></li>
-<li><code>extract_keywords(text, top_n=5)</code></li>
-<li><code>summarize_text(text, ratio=0.2)</code></li>
-<li><code>detect_language(text)</code></li>
-</ul>
-<p><img alt="image" src="https://github.com/user-attachments/assets/02565b34-d764-411a-94f5-87444bb0f30d" /></p>
-<hr />
+<p>pypi 라이브러리 텍스트마이닝 프로그램</p>
+<p>textminer-pro
+A Korean-friendly text preprocessing toolkit that supports:</p>
+<p>remove_stopwords(text, lang='en')
+extract_keywords(text, top_n=5)
+summarize_text(text, ratio=0.2)
+detect_language(text)</p>
+<h2 id="pypi">pypi패키지 링크 및 사진</h2>
+<h2 id="pypi-httpspypiorgprojecttextminerpro-hyeonsung">pypi패키지 링크 [https://pypi.org/project/textminerpro-hyeonsung/]</h2>
+<p><img alt="image" src="https://github.com/user-attachments/assets/1d0adada-88e6-43da-8bb1-c1be6be1c624" /></p>
 <h2 id="_1">📁 프로젝트 폴더 구조</h2>
-<p>textminer_pro/
-├── textminer/
-│ ├── init.py
-│ ├── cleaner.py
-│ ├── summarizer.py
-│ └── detector.py
-│
-├── tests/
-│ ├── test_cleaner.py
-│ └── test_detector.py
-│
-├── setup.py
-├── README.md
-└── .github/
-└── workflows/
-└── pypi.yml</p>
 <hr />
-<h2 id="_2">✨ 주요 기능</h2>
+<pre><code>textminer_pro/
+├── textminer/                   
+│   ├── __init__.py              
+│   ├── cleaner.py               
+│   ├── summarizer.py            
+│   └── detector.py              
+│
+├── tests/                       
+│   ├── test_cleaner.py          
+│   └── test_detector.py         
+│
+├── setup.py                     
+├── README.md                    
+└── .github/                     
+    └── workflows/
+        └── pypi.yml             
+</code></pre>
+<h3 id="_2">기능</h3>
 <ul>
-<li><strong>텍스트 정제:</strong></li>
-<li>
-<p>불용어를 효율적으로 제거하고 다른 텍스트 정규화 작업을 수행합니다.</p>
-</li>
-<li>
-<p><strong>텍스트 요약:</strong></p>
-</li>
-<li>
-<p>긴 텍스트의 간결한 요약을 생성합니다.</p>
-</li>
-<li>
-<p><strong>언어 감지:</strong></p>
-</li>
-<li>주어진 텍스트의 언어를 자동으로 식별합니다.</li>
+<li><strong>텍스트 정제:</strong> 불용어를 효율적으로 제거하고 다른 텍스트 정규화 작업을 수행합니다.</li>
+<li><strong>텍스트 요약:</strong> 긴 텍스트의 간결한 요약을 생성합니다.</li>
+<li><strong>언어 감지:</strong> 주어진 텍스트의 언어를 자동으로 식별합니다.</li>
 </ul>
-<hr />
-<h2 id="_3">📦 설치</h2>
+<h3 id="_3">설치</h3>
+<p>pip를 통해 TextMiner Pro를 설치할 수 있습니다:</p>
 <p>```bash
-pip install textminerpro2025ossreport==0.0.1</p>
+pip install textminerpro-hyeonsung==0.0.1</p>
               
             </div>
           </div><footer>
@@ -184,5 +177,5 @@ pip install textminerpro2025ossreport==0.0.1</p>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-06-14 17:27:35.521037+00:00
+Build Date UTC : 2025-06-14 17:38:46.947069+00:00
 -->
