@@ -1,9 +1,0 @@
-site_name: textminer-pro
-repo_url: https://github.com/dau-J/pypi_textminor
-
-nav:
-  - 홈: index.md
-  - 사용법: usage.md
-
-theme:
-  name: readthedocs
