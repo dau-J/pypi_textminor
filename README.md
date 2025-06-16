@@ -50,7 +50,7 @@ textminer_pro/
 
 ### 설치
 
-pip를 통해 TextMiner Pro를 설치할 수 있습니다:
+pip를 통해 TextMiner Pro를 설치할 수 있습니다.
 
 ```bash
 pip install textminerpro-hyeonsung==0.0.1
